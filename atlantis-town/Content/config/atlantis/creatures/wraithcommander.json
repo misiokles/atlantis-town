@@ -1,0 +1,86 @@
+{
+	"wraithcommander":
+	{
+		"name" :
+		{
+			"plural" : "Wraith Warriors",
+			"singular" : "Wraith Warrior"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "atlantis",
+		"aiValue" : 156,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 140
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 6
+		},
+		"defense" : 5,
+		"fightValue" : 130,
+		"graphics" :
+		{
+			"animation" : "atlantis/battle/creatures/wraith.def",
+			"map" : "atlantis/map/wraithmini.def",
+			"iconSmall" : "atlantis/iconsSmall/wraiths.bmp",
+			"iconLarge" : "atlantis/iconsBig/wraithl.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.40,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 9,
+		"hitPoints" : 40,
+		"level" : 0,
+		"shots" : 24,
+		"sound" :
+		{
+			"attack": "PFNDATTK.wav",
+			"defend": "PFNDDFND.wav",
+			"killed": "PFNDKILL.wav",
+			"move": "PFNDMOVE.wav",
+			"wince": "PFNDWNCE.wav"
+		},
+		"speed" : 4,
+		"special" : true,
+		"abilities":
+		{
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.curse",
+				"val" : 3
+			}
+		}
+	}
+}

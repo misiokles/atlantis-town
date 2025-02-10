@@ -2,7 +2,7 @@
 	"wraith" : {
 		"affinity" : "might",
 		"animation" : { "battle" : { "female" : "atlantis/battle/heroes/herowraith", "male" : "atlantis/battle/heroes/herowraith" } },
-		"commander" : "wraithwarrior",
+		"commander" : "wraithcommander",
 		"defaultTavern" : 5,
 		"faction" : "atlantis",
 		"highLevelChance" : { "attack" : 30, "defence" : 30, "knowledge" : 20, "spellpower" : 20 },

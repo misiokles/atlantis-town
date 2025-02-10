@@ -265,6 +265,7 @@
 						"gold" : 5000
 					},
 					"requires" : [ "marketplace" ],
+					"produce": { "gems": 1 },
 					"id" : 15
 				},
 				"blacksmith" :
@@ -276,6 +277,7 @@
 						"wood" : 5,
 						"gold" : 1000
 					},
+					"warMachine" : "ballista",
 					"id" : 16
 				},
 				"hordeHalflings" :
@@ -330,10 +332,20 @@
 				},
 				"grail" :
 				{
-					"description" : "Summon Stone increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
+					"description" : "Summon Stone increases weekly creature generation by 50 percent, adds 5000 gold per day, and add 20% more mana per knowledge for heroes.",
 					"name" : "Summon Stone",
 					"id" : 26,
-					"mode" : "grail"
+					"mode" : "grail",
+					"produce": { "gold": 5000 },
+					"bonuses": 
+					[
+						{
+							"type": "MANA_PER_KNOWLEDGE_PERCENTAGE",
+							"val": 20,
+							"valueType" : "PERCENT_TO_BASE",
+							"propagator": "PLAYER_PROPAGATOR" 
+						}
+					]
 				},
 				"dwelling1" :
 				{
@@ -627,7 +639,7 @@
 			},
 			"mageGuild" : 5,
 			
-			"musicTheme" : "music/atlantis/theme",
+			"musicTheme" : ["music/atlantis/theme"],
 			"names" :
 			[
 				"Atlantis"
@@ -889,11 +901,11 @@
 				"grail" :
 				{
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
-					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
-					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
+					"area" : "atlantis/town-screen/buildings-area/tbrgrail.bmp",
+					"border" : "atlantis/town-screen/buildings-border/tbrgrail.bmp",
 					"x" : 0,
 					"y" : 0,
-					"z" : 2
+					"z" : -3
 				},
 				"dwelling1" :
 				{
@@ -1025,7 +1037,6 @@
 			},
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground": "atlantis/town-screen/background",
-		"warMachine" : "ballista",
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],

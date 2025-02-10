@@ -2,7 +2,7 @@
 	"tauri" : {
 		"affinity" : "magic",
 		"animation" : { "battle" : { "female" : "atlantis/battle/heroes/heroship", "male" : "atlantis/battle/heroes/heroship" } },
-		"commander" : "soldier",
+		"commander" : "soldiercommander",
 		"defaultTavern" : 5,
 		"faction" : "atlantis",
 		"highLevelChance" : { "attack" : 20, "defence" : 20, "knowledge" : 30, "spellpower" : 30 },
