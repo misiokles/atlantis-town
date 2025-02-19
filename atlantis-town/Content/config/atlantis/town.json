@@ -327,6 +327,15 @@
 						"gems" : 5,
 						"gold" : 1000
 					},
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "@core.genrltxt.582",
+								"primary" : { "spellpower" : 1 }
+							}
+						]
+					},
 					"requires" : [ "mageguild1" ],
 					"id" : 21
 				},
