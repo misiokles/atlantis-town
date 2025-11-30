@@ -3,16 +3,17 @@
 	"description" : "New town based on Heroes3 ERA mod",
 	"author" : "",
 	"contact" : "",
-	"version" : "0.6.3",
+	"version" : "0.6.4",
 	"modType" : "Town",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"compatibility" :
 	{
-		"min" : "1.6.0"
+		"min" : "1.7.0"
 	},	
 	"changelog" :
 	{
+		"0.6.4"   : [ "Update to vcmi-1.7 format" ],
 		"0.6.3"   : [ "kdmcser fixes" ],
 		"0.6.2"   : [ "Update to vcmi-1.6 format", "Added commander", "Added creature experience system", "Added Grail" ],
 		"0.6.1"   : [ "Update to vcmi-1.4 format" ],
