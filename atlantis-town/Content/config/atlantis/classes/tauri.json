@@ -1,58 +1,82 @@
 {
 	"tauri" : {
 		"affinity" : "magic",
-		"animation" : { "battle" : { "female" : "atlantis/battle/heroes/heroship", "male" : "atlantis/battle/heroes/heroship" } },
+		"animation" : {
+			"battle" : {
+				"female" : "atlantis/battle/heroes/heroship",
+				"male" : "atlantis/battle/heroes/heroship"
+			}
+		},
 		"commander" : "soldiercommander",
 		"defaultTavern" : 5,
 		"faction" : "atlantis",
-		"highLevelChance" : { "attack" : 20, "defence" : 20, "knowledge" : 30, "spellpower" : 30 },
-		"lowLevelChance" : { "attack" : 15, "defence" : 15, "knowledge" : 35, "spellpower" : 35 },
-		"mapObject" : { "templates" : { "default" : { "animation" : "atlantis/map/speeder" } } },
-		"name" : "Tau'Ri",
-		"primarySkills" : { "attack" : 0, "defence" : 1, "knowledge" : 2, "spellpower" : 2 },
-		"secondarySkills" :
-		{
-			"pathfinding"  : 6,
-			"archery"      : 6,
-			"logistics"    : 5,
-			"scouting"     : 2,
-			"diplomacy"    : 2,
-			"navigation"   : 2,
-			"leadership"   : 2,
-			"wisdom"       : 8,
-			"mysticism"    : 3,
-			"luck"         : 4,
-			"ballistics"   : 2,
-			"eagleEye"     : 6,
-			"necromancy"   : 0,
-			"estates"      : 2,
-			"fireMagic"    : 4,
-			"airMagic"     : 6,
-			"waterMagic"   : 6,
-			"earthMagic"   : 5,
-			"scholar"      : 5,
-			"tactics"      : 4,
-			"artillery"    : 1,
-			"learning"     : 4,
-			"offence"      : 4,
-			"armorer"      : 4,
-			"intelligence" : 7,
-			"sorcery"      : 6,
-			"resistance"   : 5,
-			"firstAid"     : 2
+		"highLevelChance" : {
+			"attack" : 20,
+			"defence" : 20,
+			"knowledge" : 30,
+			"spellpower" : 30
 		},
-		"tavern" :
-		{
-			"castle"     : 4,
-			"rampart"    : 0,
-			"tower"      : 6,
-			"inferno"    : 6,
+		"lowLevelChance" : {
+			"attack" : 15,
+			"defence" : 15,
+			"knowledge" : 35,
+			"spellpower" : 35
+		},
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "atlantis/map/speeder"
+				}
+			}
+		},
+		"name" : "Tau'Ri",
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 1,
+			"knowledge" : 2,
+			"spellpower" : 2
+		},
+		"secondarySkills" : {
+			"pathfinding" : 6,
+			"archery" : 6,
+			"logistics" : 5,
+			"scouting" : 2,
+			"diplomacy" : 2,
+			"navigation" : 2,
+			"leadership" : 2,
+			"wisdom" : 8,
+			"mysticism" : 3,
+			"luck" : 4,
+			"ballistics" : 2,
+			"eagleEye" : 6,
+			"necromancy" : 0,
+			"estates" : 2,
+			"fireMagic" : 4,
+			"airMagic" : 6,
+			"waterMagic" : 6,
+			"earthMagic" : 5,
+			"scholar" : 5,
+			"tactics" : 4,
+			"artillery" : 1,
+			"learning" : 4,
+			"offence" : 4,
+			"armorer" : 4,
+			"intelligence" : 7,
+			"sorcery" : 6,
+			"resistance" : 5,
+			"firstAid" : 2
+		},
+		"tavern" : {
+			"castle" : 4,
+			"rampart" : 0,
+			"tower" : 6,
+			"inferno" : 6,
 			"necropolis" : 5,
-			"dungeon"    : 5,
+			"dungeon" : 5,
 			"stronghold" : 6,
-			"fortress"   : 6,
-			"conflux"    : 5,
-			"atlantis"   : 6
+			"fortress" : 6,
+			"conflux" : 5,
+			"atlantis" : 6
 		}
 	}
 }

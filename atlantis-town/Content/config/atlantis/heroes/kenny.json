@@ -1,29 +1,24 @@
 {
-	"kenny" :
-	{
+	"kenny" : {
 		"class" : "wraith",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Kenny",
 			"biography" : "Bonewhite, or Kenny as named by Lt. Colonel John Sheppard, was a high ranking male Wraith who served as Todd's second in command.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Bonus of Ice Bolt",
 				"tooltip" : "",
 				"name" : "Ice Bolt"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/kenny/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/kenny/spec-large.png",
 			"large" : "atlantis/heroes/kenny/portrait-large.png",
 			"small" : "atlantis/heroes/kenny/portrait-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 25,
@@ -41,8 +36,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "archery"
@@ -52,7 +46,7 @@
 				"skill" : "luck"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"iceBolt" : {

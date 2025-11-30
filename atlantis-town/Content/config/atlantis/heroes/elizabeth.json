@@ -1,34 +1,28 @@
 {
-	"elizabeth" :
-	{
+	"elizabeth" : {
 		"class" : "tauri",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Elizabeth",
 			"biography" : "Elizabeth Weir is an accomplished and acclaimed American diplomat. After a personal request from U.S. President Henry Hayes in 2004, that career came to an abrupt end so that she could assume the role of the first ever of civilian commander of Stargate Command, essentially trading international diplomacy for interplanetary diplomacy.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Intelligence bonus",
 				"tooltip" : "",
 				"name" : "Intelligence"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/elizabeth/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/elizabeth/spec-large.png",
 			"large" : "atlantis/heroes/elizabeth/portrait-large.png",
 			"small" : "atlantis/heroes/elizabeth/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"disguise"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -46,8 +40,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -57,10 +50,9 @@
 				"skill" : "intelligence"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "intelligence"
 		}
 	}
 }
-

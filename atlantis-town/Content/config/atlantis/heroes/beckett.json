@@ -1,33 +1,27 @@
 {
-	"beckett" :
-	{
+	"beckett" : {
 		"class" : "tauri",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Beckett",
 			"biography" : "Carson Beckett is the Chief Medical Officer of the Atlantis expedition. In the far, distant past, at least one Ancient became an ancestor in Beckett's family line, passing down the Ancient Technology Activation gene to him.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Haste bonus",
 				"tooltip" : "",
 				"name" : "Haste"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/beckett/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/beckett/spec-large.png",
 			"large" : "atlantis/heroes/beckett/portrait-large.png",
 			"small" : "atlantis/heroes/beckett/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"haste"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -45,8 +39,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -56,7 +49,7 @@
 				"skill" : "airMagic"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"haste" : {

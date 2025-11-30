@@ -1,62 +1,53 @@
 {
-	"athosian":
-	{
-		"name" :
-		{
+	"athosian" : {
+		"name" : {
 			"plural" : "Athosian Warriors",
 			"singular" : "Athosian Warrior"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 50,
 			"min" : 20
 		},
 		"faction" : "atlantis",
 		"aiValue" : 50,
 		"attack" : 4,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 50
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 3,
 			"min" : 1
 		},
 		"defense" : 2,
 		"fightValue" : 57,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "atlantis/battle/creatures/athosian.def",
 			"map" : "atlantis/map/athosianmini.def",
 			"iconSmall" : "atlantis/iconsSmall/athosians.bmp",
 			"iconLarge" : "atlantis/iconsBig/athosianl.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
-			},	
+			}
 		},
 
 		"growth" : 15,
 		"hitPoints" : 4,
 		"horde" : 10,
-        "level" : 1,
-		"sound" :
-		{
-			"attack": "atlantis/kick.wav",
-			"defend": "SPRTDFND.wav",
-			"killed": "SPRTKILL.wav",
-			"move": "HCRSMOVE.wav",
-			"wince": "SPRTWNCE.wav"
+		"level" : 1,
+		"sound" : {
+			"attack" : "atlantis/kick.wav",
+			"defend" : "SPRTDFND.wav",
+			"killed" : "SPRTKILL.wav",
+			"move" : "HCRSMOVE.wav",
+			"wince" : "SPRTWNCE.wav"
 		},
 		"speed" : 5,
-		"abilities" :	//has to have an "ability name" like in cove
-		{
-			"always lucky" :
-			{
+		//has to have an "ability name" like in cove
+		"abilities" : {
+			"always lucky" : {
 				"type" : "LUCK",
 				"val" : 1,
 				"valueType" : "INDEPENDENT_MAX"

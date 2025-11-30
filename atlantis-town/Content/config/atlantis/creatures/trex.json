@@ -1,62 +1,52 @@
 {
-	"trex":
-	{
-		"name" :
-		{
+	"trex" : {
+		"name" : {
 			"plural" : "M1M-316 T-Rexs",
 			"singular" : "M1M-316 T-Rex"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 8,
 			"min" : 3
 		},
 		"faction" : "atlantis",
 		"aiValue" : 8000,
 		"attack" : 19,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 5000,
 			"gems" : 2
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 40,
 			"min" : 30
 		},
 		"defense" : 28,
 		"fightValue" : 5571,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "atlantis/battle/creatures/trex.def",
 			"map" : "atlantis/map/trexmini.def",
 			"iconSmall" : "atlantis/iconsSmall/trexs.bmp",
 			"iconLarge" : "atlantis/iconsBig/trexl.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 0.90,
+			"animationTime" : {
+				"walk" : 0.9,
 				"attack" : 1,
 				"idle" : 10
-			},
+			}
 		},
 		"doubleWide" : true,
 		"growth" : 1,
 		"hitPoints" : 300,
 		"level" : 7,
-		"sound" :
-		{
-			"attack": "BMTHATTK.wav",
-			"defend": "BMTHDFND.wav",
-			"killed": "BMTHKILL.wav",
-			"move": "BMTHMOVE.wav",
-			"wince": "BMTHWNCE.wav"                   
+		"sound" : {
+			"attack" : "BMTHATTK.wav",
+			"defend" : "BMTHDFND.wav",
+			"killed" : "BMTHKILL.wav",
+			"move" : "BMTHMOVE.wav",
+			"wince" : "BMTHWNCE.wav"
 		},
 		"speed" : 10,
-		"abilities" :
-		{
-			"reduceDefence" :
-			{
+		"abilities" : {
+			"reduceDefence" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 80
 			}

@@ -1,29 +1,24 @@
 {
-	"billy" :
-	{
+	"billy" : {
 		"class" : "wraith",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Billy",
 			"biography" : "Precision, or Billy as he was nicknamed by the Tau'ri, is a Wraith bridge officer.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Bonus of geniis",
 				"tooltip" : "",
 				"name" : "geniis"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/billy/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/billy/spec-large.png",
 			"large" : "atlantis/heroes/billy/portrait-large.png",
 			"small" : "atlantis/heroes/billy/portrait-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 20,
@@ -41,8 +36,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -52,10 +46,9 @@
 				"skill" : "scouting"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "genii"
 		}
 	}
 }
-

@@ -1,29 +1,24 @@
 {
-	"condemned" :
-	{
+	"condemned" : {
 		"class" : "wraith",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Condemned",
 			"biography" : "This Wraith Commander is a Wraith who made an arrangement with the Olesian Magistrate. They were left alone as long as the population of the Penal colony was large enough to sustain him.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Bonus of Mastadges",
 				"tooltip" : "",
 				"name" : "Mastadges"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/condemned/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/condemned/spec-large.png",
 			"large" : "atlantis/heroes/condemned/portrait-large.png",
 			"small" : "atlantis/heroes/condemned/portrait-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 20,
@@ -41,8 +36,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "tactics"
@@ -52,7 +46,7 @@
 				"skill" : "artillery"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "mastadge"
 		}

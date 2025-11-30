@@ -1,36 +1,29 @@
 {
-	"teyla" :
-	{
+	"teyla" : {
 		"class" : "tauri",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Teyla",
 			"biography" : "Her past is a mystery to all.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Bonus of athosians.",
 				"tooltip" : "",
 				"name" : "athosians"
 			}
-		},			
+		},
 
-
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/teyla/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/teyla/spec-large.png",
 			"large" : "atlantis/heroes/teyla/portrait-large.png",
 			"small" : "atlantis/heroes/teyla/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"iceBolt"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -48,8 +41,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"

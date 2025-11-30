@@ -1,85 +1,61 @@
 {
-	"athosian":
-	{
-        "upgrades":
-		[
+	"athosian" : {
+		"upgrades" : [
 			"atlantis-town:satedan"
 		]
 	},
-	"satedan":
-	{
-        "upgrades":
-		[
+	"satedan" : {
+		"upgrades" : [
 			"athosian"
 		]
 	},
-	"mastadge":
-	{
-        "upgrades":
-		[
+	"mastadge" : {
+		"upgrades" : [
 			"unas"
 		]
 	},
-	"unas":
-	{
-        "upgrades":
-		[
+	"unas" : {
+		"upgrades" : [
 			"mastadge"
 		]
 	},
-	"genii":
-	{
-        "upgrades":
-		[
+	"genii" : {
+		"upgrades" : [
 			"dagan"
 		]
 	},
-	"dagan":
-	{
-        "upgrades":
-		[
+	"dagan" : {
+		"upgrades" : [
 			"genii"
 		]
 	},
-	"replicator":
-	{
-        "upgrades":
-		[
+	"replicator" : {
+		"upgrades" : [
 			"swarm"
 		]
 	},
-	"swarm":
-	{
-        "upgrades":
-		[
+	"swarm" : {
+		"upgrades" : [
 			"replicator"
 		]
 	},
-	"wraithwarrior":
-	{
-        "upgrades":
-		[
+	"wraithwarrior" : {
+		"upgrades" : [
 			"soldier"
 		]
 	},
-	"soldier":
-	{
-        "upgrades":
-		[
+	"soldier" : {
+		"upgrades" : [
 			"wraithwarrior"
 		]
 	},
-	"squid":
-	{
-        "upgrades":
-		[
+	"squid" : {
+		"upgrades" : [
 			"trex"
 		]
 	},
-	"trex":
-	{
-        "upgrades":
-		[
+	"trex" : {
+		"upgrades" : [
 			"squid"
 		]
 	}

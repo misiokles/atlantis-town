@@ -1,69 +1,54 @@
 {
-	"malp":
-	{
-		"name" :
-		{
+	"malp" : {
+		"name" : {
 			"plural" : "M.A.L.P.s",
 			"singular" : "M.A.L.P."
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 16,
 			"min" : 8
-	
 		},
 		"faction" : "atlantis",
 		"aiValue" : 1000,
-		"hasDoubleWeek": true,
+		"hasDoubleWeek" : true,
 		"attack" : 14,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 550
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 18,
 			"min" : 13
 		},
 		"defense" : 12,
 		"fightValue" : 800,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "atlantis/battle/creatures/malp.DEF",
 			"map" : "atlantis/map/malpmini.def",
 			"iconSmall" : "atlantis/iconsSmall/malps.bmp",
 			"iconLarge" : "atlantis/iconsBig/malpl.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 10.00,
-				"attack" : 1.20
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.2
 			}
 		},
-	    "doubleWide" : true,
-        "growth" : 3,
+		"doubleWide" : true,
+		"growth" : 3,
 		"hitPoints" : 50,
 		"level" : 5,
-        "upgrades":
-		[
+		"upgrades" : [
 			"malp2"
 		],
-		"sound" :
-		{
-			"attack": "atlantis/malpatk.wav",
-			"defend": "atlantis/malphit.wav",
-			"killed": "atlantis/malpdie.wav",
-			"move": "atlantis/malpwalk.wav",
-			"wince": "atlantis/malphit.wav"
- 		},
-		"speed" : 7,
-		"abilities" :
-		{
+		"sound" : {
+			"attack" : "atlantis/malpatk.wav",
+			"defend" : "atlantis/malphit.wav",
+			"killed" : "atlantis/malpdie.wav",
+			"move" : "atlantis/malpwalk.wav",
+			"wince" : "atlantis/malphit.wav"
 		},
-		"stackExperience" :
-		[
-
-		]	
+		"speed" : 7,
+		"abilities" : {},
+		"stackExperience" : []
 	}
 }

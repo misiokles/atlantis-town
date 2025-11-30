@@ -1,85 +1,275 @@
 {
 	"atlantis" : {
 		"alignment" : "neutral",
-		"creatureBackground" : { "120px" : "atlantis/creature-bg-120px.bmp", "130px" : "atlantis/creature-bg-130px.bmp" },
+		"creatureBackground" : {
+			"120px" : "atlantis/creature-bg-120px.bmp",
+			"130px" : "atlantis/creature-bg-130px.bmp"
+		},
 		"name" : "Atlantis",
 		"nativeTerrain" : "grass",
 		"boat" : "boatCastle",
 		"puzzleMap" : {
 			"prefix" : "atlantis/puzzle-map/",
-			"pieces" :
-			[
-				{ "index" : 33, "x" : 68,  "y" : 396 },
-				{ "index" : 2,  "x" : 8,   "y" : 358 },
-				{ "index" : 11, "x" : 47,  "y" : 397 },
-				{ "index" : 10, "x" : 116, "y" : 453 },
-				{ "index" : 6,  "x" : 142, "y" : 469 },
-				{ "index" : 12, "x" : 354, "y" : 481 },
-				{ "index" : 30, "x" : 252, "y" : 403 },
-				{ "index" : 1,  "x" : 468, "y" : 421 },
-				{ "index" : 28, "x" : 64,  "y" : 350 },
-				{ "index" : 38, "x" : 145, "y" : 288 },
-				{ "index" : 39, "x" : 244, "y" : 358 },
-				{ "index" : 43, "x" : 178, "y" : 374 },
-				{ "index" : 40, "x" : 199, "y" : 318 },
-				{ "index" : 44, "x" : 332, "y" : 316 },
-				{ "index" : 36, "x" : 398, "y" : 356 },
-				{ "index" : 35, "x" : 420, "y" : 307 },
-				{ "index" : 37, "x" : 373, "y" : 267 },
-				{ "index" : 31, "x" : 118, "y" : 269 },
-				{ "index" : 47, "x" : 254, "y" : 291 },
-				{ "index" : 42, "x" : 267, "y" : 270 },
-				{ "index" : 20, "x" : 471, "y" : 335 },
-				{ "index" : 9,  "x" : 557, "y" : 273 },
-				{ "index" : 15, "x" : 535, "y" : 220 },
-				{ "index" : 24, "x" : 461, "y" : 216 },
-				{ "index" : 32, "x" : 396, "y" : 180 },
-				{ "index" : 16, "x" : 521, "y" : 69 },
-				{ "index" : 17, "x" : 438, "y" : 64 },
-				{ "index" : 14, "x" : 483, "y" : 8 },
-				{ "index" : 4,  "x" : 393, "y" : 8 },
-				{ "index" : 19, "x" : 294, "y" : 8 },
-				{ "index" : 18, "x" : 251, "y" : 84 },
-				{ "index" : 27, "x" : 286, "y" : 114 },
-				{ "index" : 41, "x" : 284, "y" : 178 },
-				{ "index" : 45, "x" : 252, "y" : 197 },
-				{ "index" : 29, "x" : 189, "y" : 117 },
-				{ "index" : 46, "x" : 188, "y" : 222 },
-				{ "index" : 34, "x" : 146, "y" : 84 },
-				{ "index" : 25, "x" : 8,   "y" : 287 },
-				{ "index" : 21, "x" : 8,   "y" : 226 },
-				{ "index" : 23, "x" : 64,  "y" : 132 },
-				{ "index" : 5,  "x" : 324, "y" : 8 },
-				{ "index" : 8,  "x" : 188, "y" : 8 },
-				{ "index" : 3,  "x" : 48,  "y" : 8 },
-				{ "index" : 22, "x" : 152, "y" : 20 },
-				{ "index" : 26, "x" : 66,  "y" : 61 },
-				{ "index" : 13, "x" : 8,   "y" : 172 },
-				{ "index" : 7,  "x" : 19,  "y" : 60 },
-				{ "index" : 0,  "x" : 9,   "y" : 8 }
+			"pieces" : [
+				{
+					"index" : 33,
+					"x" : 68,
+					"y" : 396
+				},
+				{
+					"index" : 2,
+					"x" : 8,
+					"y" : 358
+				},
+				{
+					"index" : 11,
+					"x" : 47,
+					"y" : 397
+				},
+				{
+					"index" : 10,
+					"x" : 116,
+					"y" : 453
+				},
+				{
+					"index" : 6,
+					"x" : 142,
+					"y" : 469
+				},
+				{
+					"index" : 12,
+					"x" : 354,
+					"y" : 481
+				},
+				{
+					"index" : 30,
+					"x" : 252,
+					"y" : 403
+				},
+				{
+					"index" : 1,
+					"x" : 468,
+					"y" : 421
+				},
+				{
+					"index" : 28,
+					"x" : 64,
+					"y" : 350
+				},
+				{
+					"index" : 38,
+					"x" : 145,
+					"y" : 288
+				},
+				{
+					"index" : 39,
+					"x" : 244,
+					"y" : 358
+				},
+				{
+					"index" : 43,
+					"x" : 178,
+					"y" : 374
+				},
+				{
+					"index" : 40,
+					"x" : 199,
+					"y" : 318
+				},
+				{
+					"index" : 44,
+					"x" : 332,
+					"y" : 316
+				},
+				{
+					"index" : 36,
+					"x" : 398,
+					"y" : 356
+				},
+				{
+					"index" : 35,
+					"x" : 420,
+					"y" : 307
+				},
+				{
+					"index" : 37,
+					"x" : 373,
+					"y" : 267
+				},
+				{
+					"index" : 31,
+					"x" : 118,
+					"y" : 269
+				},
+				{
+					"index" : 47,
+					"x" : 254,
+					"y" : 291
+				},
+				{
+					"index" : 42,
+					"x" : 267,
+					"y" : 270
+				},
+				{
+					"index" : 20,
+					"x" : 471,
+					"y" : 335
+				},
+				{
+					"index" : 9,
+					"x" : 557,
+					"y" : 273
+				},
+				{
+					"index" : 15,
+					"x" : 535,
+					"y" : 220
+				},
+				{
+					"index" : 24,
+					"x" : 461,
+					"y" : 216
+				},
+				{
+					"index" : 32,
+					"x" : 396,
+					"y" : 180
+				},
+				{
+					"index" : 16,
+					"x" : 521,
+					"y" : 69
+				},
+				{
+					"index" : 17,
+					"x" : 438,
+					"y" : 64
+				},
+				{
+					"index" : 14,
+					"x" : 483,
+					"y" : 8
+				},
+				{
+					"index" : 4,
+					"x" : 393,
+					"y" : 8
+				},
+				{
+					"index" : 19,
+					"x" : 294,
+					"y" : 8
+				},
+				{
+					"index" : 18,
+					"x" : 251,
+					"y" : 84
+				},
+				{
+					"index" : 27,
+					"x" : 286,
+					"y" : 114
+				},
+				{
+					"index" : 41,
+					"x" : 284,
+					"y" : 178
+				},
+				{
+					"index" : 45,
+					"x" : 252,
+					"y" : 197
+				},
+				{
+					"index" : 29,
+					"x" : 189,
+					"y" : 117
+				},
+				{
+					"index" : 46,
+					"x" : 188,
+					"y" : 222
+				},
+				{
+					"index" : 34,
+					"x" : 146,
+					"y" : 84
+				},
+				{
+					"index" : 25,
+					"x" : 8,
+					"y" : 287
+				},
+				{
+					"index" : 21,
+					"x" : 8,
+					"y" : 226
+				},
+				{
+					"index" : 23,
+					"x" : 64,
+					"y" : 132
+				},
+				{
+					"index" : 5,
+					"x" : 324,
+					"y" : 8
+				},
+				{
+					"index" : 8,
+					"x" : 188,
+					"y" : 8
+				},
+				{
+					"index" : 3,
+					"x" : 48,
+					"y" : 8
+				},
+				{
+					"index" : 22,
+					"x" : 152,
+					"y" : 20
+				},
+				{
+					"index" : 26,
+					"x" : 66,
+					"y" : 61
+				},
+				{
+					"index" : 13,
+					"x" : 8,
+					"y" : 172
+				},
+				{
+					"index" : 7,
+					"x" : 19,
+					"y" : 60
+				},
+				{
+					"index" : 0,
+					"x" : 9,
+					"y" : 8
+				}
 			]
 		},
 		"town" : {
-		    "defaultTavern" : 5,
+			"defaultTavern" : 5,
 			"buildings" : {
-				"mageGuild1" :
-				{
+				"mageGuild1" : {
 					"description" : "Entering the Magical Research Center will allow a visiting hero to learn the spells kept within.",
 					"name" : "M. Research Level 1",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
-					},
-//					"id" : 0
+					}
+					//					"id" : 0
 				},
-				"mageGuild2" :
-				{
+				"mageGuild2" : {
 					"description" : "Entering the Magical Research Center will allow a visiting hero to learn the spells kept within.",
 					"name" : "M. Research Level 2",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 4,
 						"ore" : 5,
@@ -89,12 +279,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"description" : "Entering the Magical Research Center will allow a visiting hero to learn the spells kept within.",
 					"name" : "M. Research Level 3",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 6,
 						"ore" : 5,
@@ -104,12 +292,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild4" :
-				{
+				"mageGuild4" : {
 					"description" : "Entering the Magical Research Center will allow a visiting hero to learn the spells kept within.",
 					"name" : "M. Research Level 4",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 8,
 						"ore" : 5,
@@ -119,12 +305,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild5" :
-				{
+				"mageGuild5" : {
 					"description" : "Entering the Magical Research Center will allow a visiting hero to learn the spells kept within.",
 					"name" : "M. Research Level 5",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 10,
 						"ore" : 5,
@@ -134,125 +318,103 @@
 						"gold" : 1000
 					}
 				},
-				"tavern" :
-				{
+				"tavern" : {
 					"name" : "Tavern",
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"dock" :
-				{
+				"dock" : {
 					"name" : "Puddle Jumper",
 					"description" : "Secure a Puddle Jumper so that you may cross the ocean.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"gold" : 2000
 					},
 					"id" : 6
 				},
-				"fort" :
-				{					
-                    "name" : "StarGate Model 1",
+				"fort" : {
+					"name" : "StarGate Model 1",
 					"description" : "The StarGate Model 1 provides your town with defence and allows research of more advanced StarGate addresses.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
 					}
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"name" : "StarGate Model 2",
 					"description" : "The StarGate Model 2 provides your town with defence and allows research of more advanced StarGate addresses.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
 					}
 				},
-				"castle" :
-				{
+				"castle" : {
 					"name" : "StarGate Model 3",
 					"description" : "The StarGate Model 3 provides your town with defence and allows research of more advanced StarGate addresses.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
 					}
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2500
 					}
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 5000
 					}
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 10000
 					}
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"description" : "The Resource Silo provides you with an additional +1 gem each day.",
 					"name" : "Resourse Silo",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce": { "gems": 1 }
+					"produce" : {
+						"gems" : 1
+					}
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"description" : "The Daedalus provides your armies with Ballista.",
 					"name" : "The Daedalus",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 1000
 					},
 					"warMachine" : "ballista"
 				},
-				"hordeHalflings" :
-				{
+				"hordeHalflings" : {
 					"description" : "The Coordinates to this farming world increases weekly production of Athosian Warriors by 10 per week.",
 					"name" : "Athosian Supply World",
 					"cost" : {
@@ -261,8 +423,7 @@
 					"id" : 18,
 					"upgrades" : "dwelling1"
 				},
-				"hordeHalflingsUpgr" :
-				{
+				"hordeHalflingsUpgr" : {
 					"description" : "The Coordinates to this farming world increases weekly production of Satedan Warriors by 10 per week.",
 					"name" : "Satedan Supply World",
 					"cost" : {
@@ -270,27 +431,30 @@
 					},
 					"id" : 19,
 					"upgrades" : "dwellingUpgrade1",
-					"requires" : [ "hordeHalflings" ],
+					"requires" : [
+						"hordeHalflings"
+					]
 				},
-				"rainbow1" :
-				{
+				"rainbow1" : {
 					"description" : "The Nuclear Transmutation Lab earns your kingdom 250 gold per day.",
-					"produce" : { "gold" : 250 },
+					"produce" : {
+						"gold" : 250
+					},
 					"name" : "Transmutation Lab",
 					"id" : 24
 				},
-				"boat" :
-				{
+				"boat" : {
 					"description" : "Your crew awaits.",
 					"name" : "Puddle Jumper",
 					"cost" : {
 						"gold" : 1000
 					},
-					"requires" : [ "dock" ],
+					"requires" : [
+						"dock"
+					],
 					"id" : 20
 				},
-				"totempole" :
-				{
+				"totempole" : {
 					"description" : "The Totem Pole increases the Power skill of any visiting hero by +1.",
 					"name" : "Totem Pole",
 					"cost" : {
@@ -302,29 +466,30 @@
 						"rewards" : [
 							{
 								"message" : "@core.genrltxt.582",
-								"primary" : { "spellpower" : 1 }
+								"primary" : {
+									"spellpower" : 1
+								}
 							}
 						]
 					},
-					"requires" : [ "mageGuild1" ],
+					"requires" : [
+						"mageGuild1"
+					],
 					"id" : 21
 				},
-				"grail" :
-				{
+				"grail" : {
 					"description" : "Summon Stone increases weekly creature generation by 50 percent, adds 5000 gold per day, and add 20% more mana per knowledge for heroes.",
 					"name" : "Summon Stone",
-					"bonuses": 
-					[
+					"bonuses" : [
 						{
-							"type": "MANA_PER_KNOWLEDGE_PERCENTAGE",
-							"val": 20,
+							"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
+							"val" : 20,
 							"valueType" : "PERCENT_TO_BASE",
-							"propagator": "PLAYER" 
+							"propagator" : "PLAYER"
 						}
 					]
 				},
-				"dwelling1" :
-				{
+				"dwelling1" : {
 					"description" : "Coordinates for allied Athosian Base",
 					"name" : "Athosian Base",
 					"cost" : {
@@ -332,11 +497,12 @@
 						"wood" : 5,
 						"ore" : 5
 					},
-					"requires" : [ "fort" ],
+					"requires" : [
+						"fort"
+					],
 					"id" : 30
 				},
-				"dwelling2" :
-				{
+				"dwelling2" : {
 					"description" : "Coordinates for Mastadge Preserve.",
 					"name" : "Mastadge Preserve",
 					"cost" : {
@@ -344,22 +510,30 @@
 						"wood" : 5,
 						"ore" : 5
 					},
-					"requires" : [ "dwelling1" ],
+					"requires" : [
+						"dwelling1"
+					],
 					"id" : 31
 				},
-				"dwelling3" :
-				{
+				"dwelling3" : {
 					"description" : "Coordinates for allied Genii Base.",
 					"name" : "Genii Base",
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 5
 					},
-					"requires" : [ "allOf", ["mageGuild1"], ["dwelling2"] ],
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"dwelling2"
+						]
+					],
 					"id" : 32
 				},
-				"dwelling4" :
-				{
+				"dwelling4" : {
 					"description" : "Coordinates for S.G.C. Robotics Lab.",
 					"name" : "S.G.C. Robotics Lab",
 					"cost" : {
@@ -367,22 +541,30 @@
 						"gold" : 2500,
 						"ore" : 10
 					},
-					"requires" : [ "allOf", ["mageGuild1"], ["dwelling2"] ],
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"dwelling2"
+						]
+					],
 					"id" : 33
 				},
-				"dwelling5" :
-				{
+				"dwelling5" : {
 					"description" : "Coordinates for Replicator Research Lab.",
 					"name" : "Replicator Research Lab",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 15
 					},
-					"requires" : [ "dwelling3" ],
+					"requires" : [
+						"dwelling3"
+					],
 					"id" : 34
 				},
-				"dwelling6" :
-				{
+				"dwelling6" : {
 					"description" : "Coordinates for allied Wraith base.",
 					"name" : "Wraith Base",
 					"cost" : {
@@ -394,11 +576,12 @@
 						"gems" : 5,
 						"mercury" : 3
 					},
-					"requires" : [ "dwelling4" ],
+					"requires" : [
+						"dwelling4"
+					],
 					"id" : 35
 				},
-				"dwelling7" :
-				{
+				"dwelling7" : {
 					"description" : "Coordinates for Hidoman Squid Sanctuary.",
 					"name" : "Squid Sanctuary",
 					"cost" : {
@@ -407,11 +590,18 @@
 						"gems" : 10,
 						"mercury" : 10
 					},
-					"requires" : [ "allOf", ["dwelling5"], ["dwelling4"] ],
+					"requires" : [
+						"allOf",
+						[
+							"dwelling5"
+						],
+						[
+							"dwelling4"
+						]
+					],
 					"id" : 36
 				},
-				"dwellingUpgrade1" :
-				{
+				"dwellingUpgrade1" : {
 					"description" : "Coordinates for allied Satedan Base.",
 					"name" : "Satedan Base",
 					"cost" : {
@@ -421,8 +611,7 @@
 					"id" : 37,
 					"upgrades" : "dwelling1"
 				},
-				"dwellingUpgrade2" :
-				{
+				"dwellingUpgrade2" : {
 					"description" : "Coordinates for Unas home world.",
 					"name" : "Unas Home World",
 					"cost" : {
@@ -432,8 +621,7 @@
 					"id" : 38,
 					"upgrades" : "dwelling2"
 				},
-				"dwellingUpgrade3" :
-				{
+				"dwellingUpgrade3" : {
 					"description" : "Coordinates for allied Dagan Citadel",
 					"name" : "Dagan Citadel",
 					"cost" : {
@@ -444,8 +632,7 @@
 					"id" : 39,
 					"upgrades" : "dwelling3"
 				},
-				"dwellingUpgrade4" :
-				{
+				"dwellingUpgrade4" : {
 					"description" : "Coordinates for S.G.C. Robotics Lab Level 2",
 					"name" : "Robotics Lab Lvl 2",
 					"cost" : {
@@ -454,11 +641,18 @@
 						"ore" : 10
 					},
 					"id" : 40,
-					"requires" :  [ "allOf", ["mageGuild1"], ["dwelling4"] ],
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"dwelling4"
+						]
+					],
 					"upgrades" : "dwelling4"
 				},
-				"dwellingUpgrade5" :
-				{
+				"dwellingUpgrade5" : {
 					"description" : "Coordinates for Replicator Research Lab Level 2",
 					"name" : "Replicator Lab Lvl 2",
 					"cost" : {
@@ -467,11 +661,12 @@
 						"sulfur" : 5
 					},
 					"id" : 41,
-					"requires" : [ "citadel" ],
+					"requires" : [
+						"citadel"
+					],
 					"upgrades" : "dwelling5"
 				},
-				"dwellingUpgrade6" :
-				{
+				"dwellingUpgrade6" : {
 					"description" : "Coordinates for Atlantis Expedition Base.",
 					"name" : "Atlantis Expedition Base",
 					"cost" : {
@@ -483,8 +678,7 @@
 					"id" : 42,
 					"upgrades" : "dwelling6"
 				},
-				"dwellingUpgrade7" :
-				{
+				"dwellingUpgrade7" : {
 					"description" : "Coordinates for M1M-316 Sanctuary.",
 					"name" : "M1M-316 T-Rex Sanctuary",
 					"cost" : {
@@ -494,198 +688,320 @@
 						"mercury" : 10
 					},
 					"id" : 43,
-					"requires" : [ "mageGuild2" ],
+					"requires" : [
+						"mageGuild2"
+					],
 					"upgrades" : "dwelling7"
 				}
 			},
 			"buildingsIcons" : "atlantis/town-hall.def",
-			"creatures" :	[
-				[ "athosian", "satedan" ],
-				[ "mastadge", "unas" ],
-				[ "genii", "dagan" ],
-				[ "malp", "malp2" ],
-				[ "replicator", "swarm" ],
-				[ "wraithwarrior", "soldier" ],
-				[ "squid", "trex" ]
+			"creatures" : [
+				[
+					"athosian",
+					"satedan"
+				],
+				[
+					"mastadge",
+					"unas"
+				],
+				[
+					"genii",
+					"dagan"
+				],
+				[
+					"malp",
+					"malp2"
+				],
+				[
+					"replicator",
+					"swarm"
+				],
+				[
+					"wraithwarrior",
+					"soldier"
+				],
+				[
+					"squid",
+					"trex"
+				]
 			],
 			"guildBackground" : "TPMAGE.bmp",
-			"guildSpells" :
-			{
+			"guildSpells" : {
 				// Level 1
-				"bless"          : 2,
-				"bloodlust"      : 5,
-				"cure"           : 4,
-				"curse"          : 3,
-				"dispel"         : 10,
-				"haste"          : 10,
-				"magicArrow"     : 25,
-				"protectAir"     : 5,
-				"protectFire"    : 3,
-				"shield"         : 5,
-				"slow"           : 15,
-				"stoneSkin"      : 2,
-				"summonBoat"     : 5,
-				"viewAir"        : 3,
-				"viewEarth"      : 3,
+				"bless" : 2,
+				"bloodlust" : 5,
+				"cure" : 4,
+				"curse" : 3,
+				"dispel" : 10,
+				"haste" : 10,
+				"magicArrow" : 25,
+				"protectAir" : 5,
+				"protectFire" : 3,
+				"shield" : 5,
+				"slow" : 15,
+				"stoneSkin" : 2,
+				"summonBoat" : 5,
+				"viewAir" : 3,
+				"viewEarth" : 3,
 
 				// Level 2
-				"disguise"       : 2,
-				"disruptingRay"  : 8,
-				"fireWall"       : 3,
-				"fortune"        : 10,
-				"iceBolt"        : 10,
-				"lightningBolt"  : 35,
-				"precision"      : 6,
-				"quicksand"      : 4,
+				"disguise" : 2,
+				"disruptingRay" : 8,
+				"fireWall" : 3,
+				"fortune" : 10,
+				"iceBolt" : 10,
+				"lightningBolt" : 35,
+				"precision" : 6,
+				"quicksand" : 4,
 				"removeObstacle" : 6,
-				"scuttleBoat"    : 4,
-				"visions"        : 2,
-				"weakness"       : 10,
+				"scuttleBoat" : 4,
+				"visions" : 2,
+				"weakness" : 10,
 
 				// Level 3
-				"airShield"      : 2,
-				"antiMagic"      : 20,
-				"earthquake"     : 30,
-				"fireball"       : 2,
-				"forceField"     : 4,
-				"forgetfulness"  : 8,
-				"frostRing"      : 10,
-				"hypnotize"      : 2,
-				"landMine"       : 4,
-				"mirth"          : 2,
-				"misfortune"     : 4,
-				"protectEarth"   : 8,
-				"protectWater"   : 2,
-				"teleport"       : 2,
+				"airShield" : 2,
+				"antiMagic" : 20,
+				"earthquake" : 30,
+				"fireball" : 2,
+				"forceField" : 4,
+				"forgetfulness" : 8,
+				"frostRing" : 10,
+				"hypnotize" : 2,
+				"landMine" : 4,
+				"mirth" : 2,
+				"misfortune" : 4,
+				"protectEarth" : 8,
+				"protectWater" : 2,
+				"teleport" : 2,
 
 				//Level 4
-				"berserk"        : 5,
+				"berserk" : 5,
 				"chainLightning" : 10,
-				"clone"          : 5,
-				"counterstrike"  : 5,
-				"fireShield"     : 5,
-				"frenzy"         : 5,
-				"inferno"        : 5,
-				"meteorShower"   : 5,
-				"prayer"         : 5,
-				"resurrection"   : 5,
-				"slayer"         : 5,
-				"sorrow"         : 20,
-				"townPortal"     : 15,
-				"waterWalk"      : 5,
+				"clone" : 5,
+				"counterstrike" : 5,
+				"fireShield" : 5,
+				"frenzy" : 5,
+				"inferno" : 5,
+				"meteorShower" : 5,
+				"prayer" : 5,
+				"resurrection" : 5,
+				"slayer" : 5,
+				"sorrow" : 20,
+				"townPortal" : 15,
+				"waterWalk" : 5,
 
 				//Level 5
-				"airElemental"   : 10,
-				"dimensionDoor"  : 5,
+				"airElemental" : 10,
+				"dimensionDoor" : 5,
 				"earthElemental" : 20,
-				"fireElemental"  : 10,
-				"fly"            : 5,
-				"implosion"      : 20,
-				"magicMirror"    : 10,
-				"sacrifice"      : 10,
+				"fireElemental" : 10,
+				"fly" : 5,
+				"implosion" : 20,
+				"magicMirror" : 10,
+				"sacrifice" : 10,
 				"waterElemental" : 10
 			},
-			"guildWindow": "atlantis/town-screen/mage-guild",
+			"guildWindow" : "atlantis/town-screen/mage-guild",
 			"hallBackground" : "TPTHBKFR",
-			"horde" : [ 0 , -1 ],
+			"horde" : [
+				0,
+				-1
+			],
 			"moatAbility" : "infernoMoat",
 			"icons" : {
 				"village" : {
-					"normal" : {"small" : "atlantis/icons/hall-small.bmp", "large" : "atlantis/icons/hall-big.bmp" },
-					"built"  : {"small" : "atlantis/icons/hall-builded-small.bmp", "large" : "atlantis/icons/hall-builded-big.bmp" }
+					"normal" : {
+						"small" : "atlantis/icons/hall-small.bmp",
+						"large" : "atlantis/icons/hall-big.bmp"
+					},
+					"built" : {
+						"small" : "atlantis/icons/hall-builded-small.bmp",
+						"large" : "atlantis/icons/hall-builded-big.bmp"
+					}
 				},
 				"fort" : {
-					"normal" : {"small" : "atlantis/icons/fort-small.bmp", "large" : "atlantis/icons/fort-big.bmp" },
-					"built"  : {"small" : "atlantis/icons/fort-builded-small.bmp", "large" : "atlantis/icons/fort-builded-big.bmp" }
+					"normal" : {
+						"small" : "atlantis/icons/fort-small.bmp",
+						"large" : "atlantis/icons/fort-big.bmp"
+					},
+					"built" : {
+						"small" : "atlantis/icons/fort-builded-small.bmp",
+						"large" : "atlantis/icons/fort-builded-big.bmp"
+					}
 				}
 			},
 			"mapObject" : {
 				"filters" : {
-					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
-					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+					"castle" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel" : [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
 				},
 				"templates" : {
-					"capitol" : { "animation" : "atlantis/adventure-map/stargate.def" },
-					"castle" : { "animation" : "atlantis/adventure-map/stargate.def" },
-					"citadel" : { "animation" : "atlantis/adventure-map/stargate.def" },
-					"fort" : { "animation" : "atlantis/adventure-map/stargate.def" },
-					"village" : { "animation" : "atlantis/adventure-map/stargate.def" }
+					"capitol" : {
+						"animation" : "atlantis/adventure-map/stargate.def"
+					},
+					"castle" : {
+						"animation" : "atlantis/adventure-map/stargate.def"
+					},
+					"citadel" : {
+						"animation" : "atlantis/adventure-map/stargate.def"
+					},
+					"fort" : {
+						"animation" : "atlantis/adventure-map/stargate.def"
+					},
+					"village" : {
+						"animation" : "atlantis/adventure-map/stargate.def"
+					}
 				}
 			},
 			"mageGuild" : 5,
-			
-			"musicTheme" : ["music/atlantis/theme"],
-			"names" :
-			[
+
+			"musicTheme" : [
+				"music/atlantis/theme"
+			],
+			"names" : [
 				"Atlantis"
 			],
 			"primaryResource" : "gems",
-			"siege" :
-			{
+			"siege" : {
 				"shooter" : "satedan",
 				"imagePrefix" : "atlantis/siege/sgcv",
 				"towerIconSmall" : "atlantis/icons/arrowtowerssmall",
 				"towerIconLarge" : "atlantis/icons/arrowtowerslarge",
-				
-				"gate" :
-				{
-					"arch" : { "x" : 486, "y" : 232 },
-					"gate" : { "x" : 408, "y" : 254 }
-				},
-				"moat" :
-				{
-					"bank" : { "x" : 407, "y" : 80 },
-					"moat" : { "x" : 407, "y" : 80 }
-				},
-//shooterheight is removed in 0.93c			"shooterHeight" : 229,
-				"static" :
-				{
-					"background" : { "x" : 600, "y" : 50 },
-					"bottom" : { "x" : 509, "y" : 346 },
-					"top" : { "x" : 490, "y" : 97 }
-				},
-				"towers" :
-				{
-					"bottom" :
-					{
-						"battlement" : { "x" : 608, "y" : 505 },
-						"creature" : { "x" : 382, "y" : 308 },
-						"tower" : { "x" : 608, "y" : 505 }
+
+				"gate" : {
+					"arch" : {
+						"x" : 486,
+						"y" : 232
 					},
-					"keep" :
-					{
-						"battlement" : { "x" : 736, "y" : 159 },
-						"creature" : { "x" : 529, "y" : -42 },
-						"tower" : { "x" : 736, "y" : 159 }
-					},
-					"top" :
-					{
-						"battlement" : { "x" : 576, "y" : 28 },
-						"creature" : { "x" : 341, "y" : -162 },
-						"tower" : { "x" : 576, "y" : 28 }
+					"gate" : {
+						"x" : 408,
+						"y" : 254
 					}
 				},
-				"walls" :
-				{
-					"bottom" : { "x" : 509, "y" : 346 },
-					"bottomMid" : { "x" : 468, "y" : 299 },
-					"upper" : { "x" : 521, "y" : 41 },
-					"upperMid" : { "x" : 471, "y" : 147 }
+				"moat" : {
+					"bank" : {
+						"x" : 407,
+						"y" : 80
+					},
+					"moat" : {
+						"x" : 407,
+						"y" : 80
+					}
+				},
+				//shooterheight is removed in 0.93c			"shooterHeight" : 229,
+				"static" : {
+					"background" : {
+						"x" : 600,
+						"y" : 50
+					},
+					"bottom" : {
+						"x" : 509,
+						"y" : 346
+					},
+					"top" : {
+						"x" : 490,
+						"y" : 97
+					}
+				},
+				"towers" : {
+					"bottom" : {
+						"battlement" : {
+							"x" : 608,
+							"y" : 505
+						},
+						"creature" : {
+							"x" : 382,
+							"y" : 308
+						},
+						"tower" : {
+							"x" : 608,
+							"y" : 505
+						}
+					},
+					"keep" : {
+						"battlement" : {
+							"x" : 736,
+							"y" : 159
+						},
+						"creature" : {
+							"x" : 529,
+							"y" : -42
+						},
+						"tower" : {
+							"x" : 736,
+							"y" : 159
+						}
+					},
+					"top" : {
+						"battlement" : {
+							"x" : 576,
+							"y" : 28
+						},
+						"creature" : {
+							"x" : 341,
+							"y" : -162
+						},
+						"tower" : {
+							"x" : 576,
+							"y" : 28
+						}
+					}
+				},
+				"walls" : {
+					"bottom" : {
+						"x" : 509,
+						"y" : 346
+					},
+					"bottomMid" : {
+						"x" : 468,
+						"y" : 299
+					},
+					"upper" : {
+						"x" : 521,
+						"y" : 41
+					},
+					"upperMid" : {
+						"x" : 471,
+						"y" : 147
+					}
 				}
 			},
 			"structures" : {
-				"mageGuild1" :
-				{
-					"animation" : "atlantis/town-screen/buildings/tbrmage12.def",
-					"area" : "atlantis/town-screen/buildings-area/tbrmagea.bmp",
-					"border" : "atlantis/town-screen/buildings-border/tbrmageb.bmp",
-					"x"  :0,
-					"y"  :0,
-					"z"  :0
-				},
-				"mageGuild2" :
-				{
+				"mageGuild1" : {
 					"animation" : "atlantis/town-screen/buildings/tbrmage12.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrmagea.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrmageb.bmp",
@@ -693,8 +1009,15 @@
 					"y" : 0,
 					"z" : 0
 				},
-				"mageGuild3" :
-				{
+				"mageGuild2" : {
+					"animation" : "atlantis/town-screen/buildings/tbrmage12.def",
+					"area" : "atlantis/town-screen/buildings-area/tbrmagea.bmp",
+					"border" : "atlantis/town-screen/buildings-border/tbrmageb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 0
+				},
+				"mageGuild3" : {
 					"animation" : "atlantis/town-screen/buildings/tbrmage36.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrmagea.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrmageb.bmp",
@@ -702,8 +1025,7 @@
 					"y" : 0,
 					"z" : 0
 				},
-				"mageGuild4" :
-				{
+				"mageGuild4" : {
 					"animation" : "atlantis/town-screen/buildings/tbrmage36.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrmagea.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrmageb.bmp",
@@ -711,8 +1033,7 @@
 					"y" : 0,
 					"z" : 0
 				},
-				"mageGuild5" :
-				{	
+				"mageGuild5" : {
 					"animation" : "atlantis/town-screen/buildings/tbrmage36.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrmagea.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrmageb.bmp",
@@ -720,8 +1041,7 @@
 					"y" : 0,
 					"z" : 0
 				},
-				"tavern" :
-				{
+				"tavern" : {
 					"animation" : "atlantis/town-screen/buildings/tbrtavern.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrtaverna.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrtavernb.bmp",
@@ -729,8 +1049,7 @@
 					"y" : 0,
 					"z" : 1
 				},
-				"dock" :
-				{
+				"dock" : {
 					"animation" : "atlantis/town-screen/buildings/tbrdock.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrdocka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrdockb.bmp",
@@ -738,8 +1057,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"fort" :
-				{
+				"fort" : {
 					"animation" : "atlantis/town-screen/buildings/tbrkeep.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrkeepa.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrkeepb.bmp",
@@ -747,8 +1065,7 @@
 					"y" : 0,
 					"z" : -1
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"animation" : "atlantis/town-screen/buildings/tbrkeep.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrkeepa.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrkeepb.bmp",
@@ -756,8 +1073,7 @@
 					"y" : 0,
 					"z" : -1
 				},
-				"castle" :
-				{
+				"castle" : {
 					"animation" : "atlantis/town-screen/buildings/tbrkeep.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrkeepa.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrkeepb.bmp",
@@ -765,8 +1081,7 @@
 					"y" : 0,
 					"z" : -1
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrhalla.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrhallb.bmp",
@@ -774,8 +1089,7 @@
 					"y" : 0,
 					"z" : 5
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrhalla.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrhallb.bmp",
@@ -783,8 +1097,7 @@
 					"y" : 0,
 					"z" : 5
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrhalla.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrhallb.bmp",
@@ -792,8 +1105,7 @@
 					"y" : 0,
 					"z" : 5
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrhalla.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrhallb.bmp",
@@ -801,8 +1113,7 @@
 					"y" : 0,
 					"z" : 5
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"animation" : "atlantis/town-screen/buildings/tbrmarket.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrmarketa.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrmarketb.bmp",
@@ -810,8 +1121,7 @@
 					"y" : 0,
 					"z" : 3
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -819,8 +1129,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"animation" : "atlantis/town-screen/buildings/tbrsmith.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrsmitha.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrsmithb.bmp",
@@ -828,8 +1137,7 @@
 					"y" : 0,
 					"z" : 1
 				},
-				"rainbow1" :
-				{
+				"rainbow1" : {
 					"animation" : "atlantis/town-screen/buildings/tbrspecial1.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrspecial1a.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrspecial1b.bmp",
@@ -837,8 +1145,7 @@
 					"y" : 0,
 					"z" : 4
 				},
-				"hordeHalflings" :
-				{
+				"hordeHalflings" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -846,8 +1153,7 @@
 					"y" : 0,
 					"hidden" : true
 				},
-				"hordeHalflingsUpgr" :
-				{
+				"hordeHalflingsUpgr" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -855,8 +1161,7 @@
 					"y" : 0,
 					"hidden" : true
 				},
-				"boat" :
-				{
+				"boat" : {
 					"animation" : "atlantis/town-screen/buildings/tbrboat.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrdocka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrdockb.bmp",
@@ -865,8 +1170,8 @@
 					"z" : 3,
 					"hidden" : true
 				},
-				"totempole" : //maybe not?
-				{
+				//maybe not?
+				"totempole" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -874,8 +1179,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"grail" :
-				{
+				"grail" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/tbrgrail.bmp",
 					"border" : "atlantis/town-screen/buildings-border/tbrgrail.bmp",
@@ -883,8 +1187,7 @@
 					"y" : 0,
 					"z" : -3
 				},
-				"dwelling1" :
-				{
+				"dwelling1" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -892,8 +1195,7 @@
 					"y" : 0,
 					"z" : 1
 				},
-				"dwelling2" :
-				{
+				"dwelling2" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -901,8 +1203,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"dwelling3" :
-				{
+				"dwelling3" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -910,8 +1211,7 @@
 					"y" : 0,
 					"z" : 20
 				},
-				"dwelling4" :
-				{
+				"dwelling4" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -919,27 +1219,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"dwelling5" :
-				{
-					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
-					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
-					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2,
-
-				},
-				"dwelling6" :
-				{
-					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
-					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
-					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2,
-				},
-				"dwelling7" :
-				{
+				"dwelling5" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -947,8 +1227,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"dwellingUpgrade1" :
-				{
+				"dwelling6" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -956,8 +1235,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"dwellingUpgrade2" :
-				{
+				"dwelling7" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -965,8 +1243,23 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"dwellingUpgrade3" :
-				{
+				"dwellingUpgrade1" : {
+					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
+					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
+					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingUpgrade2" : {
+					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
+					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
+					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
+					"x" : 0,
+					"y" : 0,
+					"z" : 2
+				},
+				"dwellingUpgrade3" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -974,8 +1267,7 @@
 					"y" : 0,
 					"z" : 21
 				},
-				"dwellingUpgrade4" :
-				{
+				"dwellingUpgrade4" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -983,8 +1275,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"dwellingUpgrade5" :
-				{
+				"dwellingUpgrade5" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -992,8 +1283,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"dwellingUpgrade6" :
-				{
+				"dwellingUpgrade6" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -1001,8 +1291,7 @@
 					"y" : 0,
 					"z" : 2
 				},
-				"dwellingUpgrade7" :
-				{
+				"dwellingUpgrade7" : {
 					"animation" : "atlantis/town-screen/buildings/tbrhall.def",
 					"area" : "atlantis/town-screen/buildings-area/blanka.bmp",
 					"border" : "atlantis/town-screen/buildings-border/blankb.bmp",
@@ -1011,37 +1300,89 @@
 					"z" : 2
 				}
 			},
-		"tavernVideo" : "TAVERN.BIK",
-		"townBackground": "atlantis/town-screen/background",
-		"hallSlots" : [
+			"tavernVideo" : "TAVERN.BIK",
+			"townBackground" : "atlantis/town-screen/background",
+			"hallSlots" : [
 				[
-					[ "villageHall", "townHall", "cityHall", "capitol" ],
-					[ "fort", "citadel", "castle" ],
-					[ "tavern" ],
-					[ "blacksmith" ]
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
 				],
 				[
-					[ "marketplace", "resourceSilo" ],
-					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
-					[ "dock" ]
-				],
-				[ 
-					[ "totempole" ],
-					[ "rainbow1" ],
-			    	[ "hordeHalflings", "hordeHalflingsUpgr" ]
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"dock"
+					]
 				],
 				[
-					[ "dwelling1", "dwellingUpgrade1" ],
-					[ "dwelling2", "dwellingUpgrade2" ],
-					[ "dwelling3", "dwellingUpgrade3" ],
-					[ "dwelling4", "dwellingUpgrade4" ]
+					[
+						"totempole"
+					],
+					[
+						"rainbow1"
+					],
+					[
+						"hordeHalflings",
+						"hordeHalflingsUpgr"
+					]
 				],
 				[
-					[ "dwelling5", "dwellingUpgrade5" ],
-					[ "dwelling6", "dwellingUpgrade6" ],
-					[ "dwelling7", "dwellingUpgrade7" ]
+					[
+						"dwelling1",
+						"dwellingUpgrade1"
+					],
+					[
+						"dwelling2",
+						"dwellingUpgrade2"
+					],
+					[
+						"dwelling3",
+						"dwellingUpgrade3"
+					],
+					[
+						"dwelling4",
+						"dwellingUpgrade4"
+					]
+				],
+				[
+					[
+						"dwelling5",
+						"dwellingUpgrade5"
+					],
+					[
+						"dwelling6",
+						"dwellingUpgrade6"
+					],
+					[
+						"dwelling7",
+						"dwellingUpgrade7"
+					]
 				]
-			],
+			]
 		}
 	}
 }

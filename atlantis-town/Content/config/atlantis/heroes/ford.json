@@ -1,36 +1,29 @@
 {
-	"ford" :
-	{
+	"ford" : {
 		"class" : "tauri",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Ford",
 			"biography" : "Representing the United States Marine Corps, Aiden Ford was present during the scientific investigation of the Antarctic outpost until he was transferred to the Atlantis expedition, arriving at Atlantis in the Pegasus Galaxy.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Bonus of Centaur Barbarians",
 				"tooltip" : "",
 				"name" : "Centaur Barbarians"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/ford/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/ford/spec-large.png",
 			"large" : "atlantis/heroes/ford/portrait-large.png",
 			"small" : "atlantis/heroes/ford/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"dispel"
 		],
 
-
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -48,14 +41,13 @@
 			}
 		],
 
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "wisdom"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "malp"
 		}

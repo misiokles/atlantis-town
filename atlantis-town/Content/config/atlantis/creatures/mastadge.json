@@ -1,40 +1,33 @@
 {
-	"mastadge":
-	{
-		"name" :
-		{
+	"mastadge" : {
+		"name" : {
 			"plural" : "Domesticated Mastadges",
 			"singular" : "Domesticated Mastadge"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 30,
 			"min" : 16
 		},
 		"faction" : "atlantis",
 		"aiValue" : 146,
 		"attack" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 110
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 4,
 			"min" : 2
 		},
 		"defense" : 3,
 		"fightValue" : 154,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "atlantis/battle/creatures/mastadge.def",
 			"map" : "atlantis/map/mastadgemini.def",
 			"iconSmall" : "atlantis/iconsSmall/mastadges.bmp",
 			"iconLarge" : "atlantis/iconsBig/mastadgel.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
+			"animationTime" : {
+				"walk" : 1.0,
 				"attack" : 1,
 				"idle" : 10
 			}
@@ -43,13 +36,12 @@
 		"growth" : 8,
 		"hitPoints" : 15,
 		"level" : 2,
-		"sound" :
-		{
-			"attack": "MINOATTK.wav",
-			"defend": "MINODFND.wav",
-			"killed": "MINOKILL.wav",
-			"move": "MINOMOVE.wav",
-			"wince": "MINOWNCE.wav"
+		"sound" : {
+			"attack" : "MINOATTK.wav",
+			"defend" : "MINODFND.wav",
+			"killed" : "MINOKILL.wav",
+			"move" : "MINOMOVE.wav",
+			"wince" : "MINOWNCE.wav"
 		},
 		"speed" : 6
 	}

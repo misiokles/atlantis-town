@@ -1,34 +1,28 @@
 {
-	"rodney" : 
-	{
+	"rodney" : {
 		"class" : "tauri",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Rodney",
 			"biography" : "Dr. Meredith Rodney McKay, better known as Rodney McKay, due to his dislike of his real first name, is a brilliant astrophysicist, and one of the leading experts on not only the Stargate and wormhole physics, but also Ancient and nanite technology in both the Milky Way and Pegasus galaxies.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Bonus of Mysticism",
 				"tooltip" : "",
 				"name" : "Mysticism"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/rodney/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/rodney/spec-large.png",
 			"large" : "atlantis/heroes/rodney/portrait-large.png",
 			"small" : "atlantis/heroes/rodney/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"visions"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -46,8 +40,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -57,11 +50,9 @@
 				"skill" : "mysticism"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "mysticism"
 		}
 	}
 }
-
-

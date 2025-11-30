@@ -1,49 +1,40 @@
 {
-	"genii":
-	{
-		"name" :
-		{
+	"genii" : {
+		"name" : {
 			"plural" : "Genii Warriors",
 			"singular" : "Genii Warrior"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 25,
 			"min" : 12
 		},
 		"faction" : "atlantis",
 		"aiValue" : 271,
 		"attack" : 9,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 200
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 5,
 			"min" : 4
 		},
 		"defense" : 5,
 		"fightValue" : 220,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "atlantis/battle/creatures/genii.def",
 			"map" : "atlantis/map/geniimini.def",
 			"iconSmall" : "atlantis/iconsSmall/geniis.bmp",
 			"iconLarge" : "atlantis/iconsBig/geniil.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"attackClimaxFrame" : 8,
 				"projectile" : "atlantis/battle/creatures/projectile/bullet.def",
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 41,
 					"upperY" : -92,
 					"middleX" : 58,
@@ -51,28 +42,37 @@
 					"lowerX" : 29,
 					"lowerY" : -14
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-			},
-			
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
 		},
 		"growth" : 7,
 		"hitPoints" : 20,
 		"level" : 3,
 		"shots" : 24,
-		"sound" :
-		{
-			"attack": "atlantis/kick.wav",
-			"defend": "HCRSDFND.wav",
-			"killed": "HCRSKILL.wav",
-			"move": "HCRSMOVE.wav",
-            "shoot" : "atlantis/gun.wav",
-			"wince": "HCRSWNCE.wav"
+		"sound" : {
+			"attack" : "atlantis/kick.wav",
+			"defend" : "HCRSDFND.wav",
+			"killed" : "HCRSKILL.wav",
+			"move" : "HCRSMOVE.wav",
+			"shoot" : "atlantis/gun.wav",
+			"wince" : "HCRSWNCE.wav"
 		},
 		"speed" : 9,
-		"abilities" :
-		{
-			"canshoot" :
-			{
+		"abilities" : {
+			"canshoot" : {
 				"type" : "SHOOTER"
 			}
 		}

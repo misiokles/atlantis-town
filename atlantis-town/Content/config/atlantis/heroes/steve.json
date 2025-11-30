@@ -1,29 +1,24 @@
 {
-	"steve" :
-	{
+	"steve" : {
 		"class" : "wraith",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Steve",
 			"biography" : "He was captured during a trap set by Major John Sheppard and his team using a Wraith relay device on an unnamed planet. When Sheppard asked the Wraith if he had a name, Steve simply replied that all the expedition needed to know was that he would be their death, prompting Sheppard to comment that he preferred Steve.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "+350 Gold per day",
 				"tooltip" : "",
 				"name" : "+350 Gold"
-			}			
+			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/steve/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/steve/spec-large.png",
 			"large" : "atlantis/heroes/steve/portrait-large.png",
 			"small" : "atlantis/heroes/steve/portrait-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -41,8 +36,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "diplomacy"
@@ -52,7 +46,7 @@
 				"skill" : "resistance"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"gold" : {

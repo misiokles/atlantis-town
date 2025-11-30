@@ -1,29 +1,24 @@
 {
-	"bob" :
-	{
+	"bob" : {
 		"class" : "wraith",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Bob",
 			"biography" : "Bob was the name that Major John Sheppard gave to a Wraith saboteur in Atlantis.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "+1 Gem per day",
 				"tooltip" : "",
 				"name" : "+1 Gem"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/bob/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/bob/spec-large.png",
 			"large" : "atlantis/heroes/bob/portrait-large.png",
 			"small" : "atlantis/heroes/bob/portrait-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -40,9 +35,8 @@
 				"min" : 4
 			}
 		],
-		
-		"skills" :
-		[
+
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -52,7 +46,7 @@
 				"skill" : "leadership"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"crystal" : {

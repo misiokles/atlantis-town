@@ -1,61 +1,51 @@
 {
-	"replicator":
-	{
-		"name" :
-		{
+	"replicator" : {
+		"name" : {
 			"plural" : "Reprogrammed Replicators",
 			"singular" : "Reprogrammed Replicator"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 16,
 			"min" : 8
 		},
 		"faction" : "atlantis",
 		"aiValue" : 859,
 		"attack" : 16,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 600
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 16,
 			"min" : 14
 		},
 		"defense" : 13,
 		"fightValue" : 753,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "atlantis/battle/creatures/replicator.def",
 			"map" : "atlantis/map/replicatormini.def",
 			"iconSmall" : "atlantis/iconsSmall/replicators.bmp",
 			"iconLarge" : "atlantis/iconsBig/replicatorl.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.40,
+			"animationTime" : {
+				"walk" : 1.4,
 				"attack" : 1,
 				"idle" : 10
-			},
-        },
+			}
+		},
 		"doubleWide" : false,
 		"growth" : 3,
 		"hitPoints" : 60,
 		"level" : 5,
-		"sound" :
-		{
-			"attack": "atlantis/rephit.wav",
-			"defend": "atlantis/rephurt.wav",
-			"killed": "atlantis/repdie.wav",
-			"move": "atlantis/repwalk.wav",
-			"wince": "atlantis/rephurt.wav"
+		"sound" : {
+			"attack" : "atlantis/rephit.wav",
+			"defend" : "atlantis/rephurt.wav",
+			"killed" : "atlantis/repdie.wav",
+			"move" : "atlantis/repwalk.wav",
+			"wince" : "atlantis/rephurt.wav"
 		},
 		"speed" : 7,
-		"abilities" :
-		{
-			"adjacent resistance" :
-			{
+		"abilities" : {
+			"adjacent resistance" : {
 				"type" : "SPELL_RESISTANCE_AURA",
 				"val" : 50
 			}

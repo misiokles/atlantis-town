@@ -1,29 +1,24 @@
 {
-	"ellia" : 
-	{
+	"ellia" : {
 		"class" : "wraith",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Ellia",
 			"biography" : "Ellia was a female Wraith who survived a crashed Wraith scout ship, and was found, then raised by Zaddik. Several years later, after some periodic culling on the village, Ellia claimed she did not do it, as Zaddik worked on a serum to halt her dependence on feeding on humans.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Bonus of Scouting",
 				"tooltip" : "",
 				"name" : "Scouting"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/ellia/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/ellia/spec-large.png",
 			"large" : "atlantis/heroes/ellia/portrait-large.png",
 			"small" : "atlantis/heroes/ellia/portrait-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -40,14 +35,13 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "scouting"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"sight" : {
@@ -60,7 +54,7 @@
 						"stepSize" : 1
 					}
 				}
-			}	
+			}
 		}
 	}
 }

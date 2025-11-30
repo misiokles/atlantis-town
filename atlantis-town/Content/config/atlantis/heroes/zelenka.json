@@ -1,34 +1,28 @@
 {
-	"zelenka" :
-	{
+	"zelenka" : {
 		"class" : "tauri",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Zelenka",
 			"biography" : "Radek Zelenka is a scientist from the Czech Republic and a member of the Atlantis expedition who is assigned to the science department and also presumably the second-in-command under Chief Science Officer, Dr. Meredith Rodney McKay with both Zelenka and McKay having often performed miracles with Ancient technology over the years of the expedition's operation.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Bonus of Sorcery",
 				"tooltip" : "",
 				"name" : "Sorcery"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/zelenka/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/zelenka/spec-large.png",
 			"large" : "atlantis/heroes/zelenka/portrait-large.png",
 			"small" : "atlantis/heroes/zelenka/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -46,8 +40,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -57,7 +50,7 @@
 				"skill" : "sorcery"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "sorcery"
 		}

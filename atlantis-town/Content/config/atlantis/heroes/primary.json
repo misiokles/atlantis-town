@@ -1,30 +1,25 @@
 {
-	"primary" :
-	{
+	"primary" : {
 		"class" : "wraith",
 		"female" : true,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "The Primary",
 			"biography" : "The Primary was a Wraith queen who was in control of an alliance of several Hive Ships. When Todd planned a go-ahead for Dr. Jennifer Keller's plan from Michael's database, to eliminate the Wraith's need to feed, Todd wanted to convince the primary.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Bonus of Armorer",
 				"tooltip" : "",
 				"name" : "Armorer"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/primary/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/primary/spec-large.png",
 			"large" : "atlantis/heroes/primary/portrait-large.png",
 			"small" : "atlantis/heroes/primary/portrait-small.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -52,7 +47,7 @@
 				"skill" : "tactics"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "armorer"
 		}

@@ -1,34 +1,28 @@
 {
-	"ronon" :
-	{
+	"ronon" : {
 		"class" : "tauri",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Ronon",
 			"biography" : "Ronon Dex is a Satedan from the planet Sateda in the Pegasus galaxy, who was forced for a time to act as a Runner which later brought him to the attention of the Atlantis expedition.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Bonus of Satedan Warriors",
 				"tooltip" : "",
 				"name" : "Satedan Warriors"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/ronon/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/ronon/spec-large.png",
 			"large" : "atlantis/heroes/ronon/portrait-large.png",
 			"small" : "atlantis/heroes/ronon/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"viewEarth"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -46,8 +40,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -62,4 +55,3 @@
 		}
 	}
 }
-

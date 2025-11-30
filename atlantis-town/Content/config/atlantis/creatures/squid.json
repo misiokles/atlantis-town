@@ -1,40 +1,33 @@
 {
-	"squid":
-	{
-		"name" :
-		{
+	"squid" : {
+		"name" : {
 			"plural" : "Hidoman Squids",
 			"singular" : "Hidoman Squid"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 10,
 			"min" : 4
 		},
 		"faction" : "atlantis",
 		"aiValue" : 3850,
 		"attack" : 17,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 2400,
 			"gems" : 1
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 40,
 			"min" : 30
 		},
 		"defense" : 21,
 		"fightValue" : 3100,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "atlantis/battle/creatures/squid.DEF",
 			"map" : "atlantis/map/squidmini.def",
 			"iconSmall" : "atlantis/iconsSmall/squids.bmp",
 			"iconLarge" : "atlantis/iconsBig/squidl.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.17,
 				"attack" : 1,
 				"idle" : 10
@@ -44,58 +37,49 @@
 		"growth" : 1,
 		"hitPoints" : 200,
 		"level" : 7,
-		"sound" :
-		{
-			"attack": "EVLIATTK.wav",
-			"defend": "EVLIDFND.wav",
-			"killed": "EVLIKILL.wav",
-			"move": "EVLIMOVE.wav",
-			"wince": "EVLIWNCE.wav"
+		"sound" : {
+			"attack" : "EVLIATTK.wav",
+			"defend" : "EVLIDFND.wav",
+			"killed" : "EVLIKILL.wav",
+			"move" : "EVLIMOVE.wav",
+			"wince" : "EVLIWNCE.wav"
 		},
 		"speed" : 8,
-		"abilities" :
-		{
-			"casts bind after attack" :
-			{
+		"abilities" : {
+			"casts bind after attack" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.bind",	//72 
-				"val" : 100,
+				"subtype" : "spell.bind", //72
+				"val" : 100
 			},
-			"+10defense when defending" :
-			{
+			"+10defense when defending" : {
 				"type" : "DEFENSIVE_STANCE",
 				"val" : 10
 			},
-			"easy to burn-firewall" :
-			{
+			"easy to burn-firewall" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"val" : 100,
-				"subtype" : "spell.fireWall"	//13
+				"subtype" : "spell.fireWall" //13
 			},
-			"easy to burn-fireball" :
-			{
+			"easy to burn-fireball" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"val" : 100,
-				"subtype" : "spell.fireball"	//21
+				"subtype" : "spell.fireball" //21
 			},
-			"easy to burn-inferno" :
-			{
+			"easy to burn-inferno" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"val" : 100,
-				"subtype" : "spell.inferno"	//22
+				"subtype" : "spell.inferno" //22
 			},
-			"easy to burn-armageddon" :
-			{
+			"easy to burn-armageddon" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"val" : 100,
-				"subtype" : "spell.armageddon"	//26
+				"subtype" : "spell.armageddon" //26
 			},
-			"easy to burn-fireshield" :
-			{ 
+			"easy to burn-fireshield" : {
 				"type" : "MORE_DAMAGE_FROM_SPELL",
 				"val" : 100,
-				"subtype" : "spell.fireShield"	//29
+				"subtype" : "spell.fireShield" //29
 			}
-		}	
+		}
 	}
 }

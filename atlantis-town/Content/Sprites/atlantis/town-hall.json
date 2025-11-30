@@ -1,6 +1,8 @@
 {
-	"images" :
-	[
-		{ "frame" : 44, "file" : "atlantis/town-hall.def"}
+	"images" : [
+		{
+			"frame" : 44,
+			"file" : "atlantis/town-hall.def"
+		}
 	]
 }

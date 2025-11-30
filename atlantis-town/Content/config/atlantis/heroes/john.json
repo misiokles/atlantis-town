@@ -1,35 +1,29 @@
 {
-	"john" :
-	{
+	"john" : {
 		"class" : "tauri",
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Sheppard",
 			"biography" : "John Sheppard was an officer in the United States Air Force and, since 2004, a member of the Atlantis expedition, commanding the expedition's military contingent for much of that time. ",
 
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Bonus of Weakness",
 				"tooltip" : "",
 				"name" : "Weakness"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "atlantis/heroes/john/spec-small.png",
 			"specialtyLarge" : "atlantis/heroes/john/spec-large.png",
 			"large" : "atlantis/heroes/john/portrait-large.png",
 			"small" : "atlantis/heroes/john/portrait-small.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"weakness"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "athosian",
 				"max" : 30,
@@ -46,8 +40,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -57,7 +50,7 @@
 				"skill" : "waterMagic"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"weakness" : {
@@ -69,4 +62,3 @@
 		}
 	}
 }
-
