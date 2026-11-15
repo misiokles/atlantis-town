@@ -3,14 +3,17 @@
 	"description" : "New town based on Heroes3 ERA mod",
 	"author" : "",
 	"contact" : "",
-	"version" : "0.6.4",
+	"version" : "0.6.5",
 	"modType" : "Town",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"compatibility" : {
-		"min" : "1.7.0"
+		"min" : "1.8.0"
 	},
 	"changelog" : {
+		"0.6.5" : [
+			"Update to vcmi-1.8 format"
+		],
 		"0.6.4" : [
 			"Update to vcmi-1.7 format"
 		],
