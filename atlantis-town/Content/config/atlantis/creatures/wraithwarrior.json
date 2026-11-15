@@ -46,9 +46,9 @@
 		"speed" : 6,
 		"abilities" : {
 			"drainsLife" : {
-    "type" : "COMBAT_EVENT_TRIGGER",
-    "subtype" : "lifeDrain",
-    "val" : 100
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "lifeDrain",
+				"val" : 100
 			}
 		}
 	}

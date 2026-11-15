@@ -6,7 +6,9 @@
 			"130px" : "atlantis/creature-bg-130px.bmp"
 		},
 		"name" : "Atlantis",
-		"nativeTerrain" : [ "grass" ],
+		"nativeTerrain" : [
+			"grass"
+		],
 		"boat" : "boatCastle",
 		"puzzleMap" : {
 			"prefix" : "atlantis/puzzle-map/",
